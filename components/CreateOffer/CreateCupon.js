@@ -107,7 +107,9 @@ function CreateCupon(props) {
               sx={{ minWidth: 200 }}
             >
               {cuponTypes.map((cuponType) => (
-                <MenuItem value={cuponType.id}>{cuponType.type}</MenuItem>
+                <MenuItem key={cuponType.id} value={cuponType.id}>
+                  {cuponType.type}
+                </MenuItem>
               ))}
             </Select>
           </Grid>
@@ -133,7 +135,9 @@ function CreateCupon(props) {
               sx={{ minWidth: 200 }}
             >
               {reasons.map((cuponReason) => (
-                <MenuItem value={cuponReason.id}>{cuponReason.reason}</MenuItem>
+                <MenuItem key={cuponReason.id} value={cuponReason.id}>
+                  {cuponReason.reason}
+                </MenuItem>
               ))}
             </Select>
           </Grid>
