@@ -35,6 +35,10 @@ function Description(props) {
       >
         <Grid container rowSpacing={2}>
           <Grid item xs={12}>
+            {" "}
+            Select one of the coupon conditions and provide descriptions
+          </Grid>
+          <Grid item xs={12}>
             <FormControlLabel value="description1" control={<Radio />} />
             <OutlinedInput
               id="standard-adornment-amount"
