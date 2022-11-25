@@ -64,7 +64,7 @@ function CreateCupon(props) {
               component="span"
               sx={{ color: "primary.main", fontWeight: "bold" }}
             >
-              Cupon Creater :
+              Coupon Creater :
             </Typography>{" "}
             Pradeep Karunakaran
           </Grid>
@@ -96,7 +96,7 @@ function CreateCupon(props) {
               alignItems: "center",
             }}
           >
-            <Typography component="span">Cupon Type </Typography>
+            <Typography component="span">Coupon Type </Typography>
           </Grid>
           <Grid item xs={8}>
             <Select
